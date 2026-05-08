@@ -3,11 +3,6 @@ apply plugin: 'com.android.application'
 android {
     namespace 'com.github.tvbox.osc.bbox' // fix build 
     compileSdk 34
-         defaultConfig {
-        applicationId "com.github.tvbox.osc.bbox" // 这里的包名通常就是你要填的 namespace
-        // ...
-         } 
-
     signingConfigs {
         sigin {
             storeFile file("BUNNY.jks")
