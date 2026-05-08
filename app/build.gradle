@@ -6,8 +6,7 @@ android {
          defaultConfig {
         applicationId "com.github.tvbox.osc.bbox" // 这里的包名通常就是你要填的 namespace
         // ...
-         }   
-    compileSdkVersion 30
+         } 
 
     signingConfigs {
         sigin {
@@ -29,9 +28,8 @@ android {
 
     defaultConfig {
         applicationId 'com.github.tvbox.osc.bbox'
-        minSdkVersion 16
-        //noinspection ExpiredTargetSdkVersion
-        targetSdkVersion 26
+        minSdk 21 // 假设你有这一行
+        targetSdk 33 // 假设你有这一行
         versionCode 1
         versionName '666999'
         multiDexEnabled true
