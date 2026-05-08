@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.github.tvbox.osc.bbox' // 替换为你实际的包名
+    compileSdk 3
+        
     compileSdkVersion 30
 
     signingConfigs {
